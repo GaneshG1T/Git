@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        //  let user ={'Name':'Hari','Age':15}
+
+        // const sar = (user)=>
+        // {
+        //     let cond = user.Name? user.Name : "No name";
+        //     return "Hello  " + cond
+        // }
+        //     console.log(sar(user))
+
+            // var avg =95;
+            // function cul (avg)
+            // {
+            //     var cal= avg>=90? "A - Grade" :avg>=80 ? "b-Grade": "c-Grade";
+            //     return "your are:"+cal
+            // }
+
+            // console.log(cul(avg))
+                
+            // let b = prompt("Enter your Age:")
+            // if(b !=null && b>= 18)
+            // {
+            //     console.log("You are eligible for vote")
+        //     // }
+        //  let array =["hari","ganesh","jai","veen"]
+        // for (let arr of array)
+        // {
+        //     console.log(arr )
+        // }
+        //  console.log(array)
+
+        // let user ={'Name':'Hari','Age':15, 'city':'NAgercoil'}
+
+        //     let user1 = Object.keys(user)
+        //     let user2 = Object.values(user);
+        //     for ( i=0; i<= user1.length;i++)
+        //     {
+        //         console.log(user1[i]+":"+user2[i]);
+        //     }
+
+        // let v = [
+        //     // ["ram","Din","joe"],
+        //     ["hari","jai","kalai"]
+        //     // ["lal","javan","jega"]
+        //     ]
+           
+        //     for (let  v1 of v)
+        //     {
+        //         // for (let v2 of v1)
+        //         // {
+        //         //     if(v2.startsWith('j'))
+        //         //     {
+        //                 console.log(v1)
+        //         //     }
+        //         // }
+        //     }
+
+        const b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+b.forEach((value) => {
+    const sqrtValue = Math.sqrt(value);
+    console.log(sqrtValue);
+});
+
+let n = b.map(value=>
+{   
+    return  value>4? "eligibl" : "not elegible"
+})
+console.log(n)
+            // let v = b.map((value)=>
+            // {
+            //     return    Math.sqrt(value).toFixed(2);
+
+            // })
+            // console.table(v);
+            // const map1 = new Map();
+            const b1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let n1 = b1.map(value => {   
+    return value > 4 ? "eligible" : "not eligible";
+});
+
+console.log(n1);
+
+
+
+const map1 = new Map();
+
+// m.set('a'," ")
+map1.set('a',1552 );
+map1.set('b', 2);
+map1.set('c', 3);
+map1.set('a','Hello' );
+// map1.set('a',7543)
+
+console.log(map1.get('a'))
+            
+
+
+
+
+    </script>
+</body>
+</html>
